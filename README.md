@@ -1,1 +1,1 @@
-# Vagas-emprego-itapipoca-
+# Vagas-emprego-ita
