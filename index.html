@@ -6,25 +6,47 @@
 
   <title>Vagas & Emprego Itapipoca</title>
 
-  <!-- Manifest -->
   <link rel="manifest" href="manifest.json">
-
-  <!-- PWA -->
   <meta name="theme-color" content="#0d6efd">
-  <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <script>
-    window.location.href = "https://sites.google.com/view/vagas-emprego-itapipoca/";
-  </script>
+  <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 
-<body>
-  <p>Redirecionando…</p>
+<body style="
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f7fa;
+">
+
+  <div style="text-align:center; max-width:300px;">
+    <h2>📲 Vagas & Emprego Itapipoca</h2>
+    <p>Instale nosso app para acessar as vagas com mais rapidez.</p>
+
+    <button onclick="abrirSite()" style="
+      padding: 12px 20px;
+      font-size: 16px;
+      background: #0d6efd;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    ">
+      Entrar no site
+    </button>
+  </div>
 
   <script>
+    function abrirSite() {
+      window.location.href = "https://sites.google.com/view/vagas-emprego-itapipoca/";
+    }
+
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("service-worker.js");
     }
   </script>
+
 </body>
 </html>
