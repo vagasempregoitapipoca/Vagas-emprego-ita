@@ -1,7 +1,7 @@
 {
   "name": "Vagas & Emprego Itapipoca",
-  "short_name": "VagasItapipoca",
-  "start_url": "/index.html",
+  "short_name": "Vagas Ita",
+  "start_url": "/Vagas-emprego-ita/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0d6efd",
@@ -18,4 +18,3 @@
     }
   ]
 }
-
